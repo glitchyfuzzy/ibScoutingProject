@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scouting App</title> 
+  <link rel="stylesheet" href="styles.css">   <!-- links styles.css to html file--> 
+  <script src="script.js"></script> <!-- links script.js to html file--> 
+</head>
+<body> 
+  <header class = "searchHeader">
+
+    <!--creates search bar component-->
+    <form id = "searchForm">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+      <input type="submit" value="Submit">
+    </form>
+
+    <!--creates selection of team or event component-->
+    <form id = "typeSearch">
+      <select id="searchType" name="searchType">
+        <option value = "teamName">Team Name</option>
+        <option value="eventName">Event Name</option>
+      </select>
+    </form>
+
+  </header>
+
+  <h1 id ="eventname"></h1>
+
+<!-- full table element -->
+<table id="spreadsheet">
+  <!-- Header row -->
+  <tr>
+    <th>Team Name</th> <!-- team name header -->
+    <th>Team Number</th> <!-- team number header -->
+    <th>Organization</th> <!--team organization header -->
+    <th>Grade</th> <!-- team grade header (middle school or high school) -->
+    <th>City</th> <!-- team city header within region -->
+    <th>Reigon</th> <!-- team region header -->
+    <th>Offence, Defence, or Both?</th>
+    <th>Launcher?</th>
+    <th>Manipulator? </th>
+    <th>Elevation?</th> 
+    <th>Notes</th>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* styles table element */
+table {
+    border-collapse: collapse; /* gives same borders to cells*/
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+  
+/* styles table data and table header elements*/
+td, th {
+    border: 1px solid #ddd; /* sets border */
+    padding: 8px; /* sets padding*/
+    text-align: center; /* aligns text to center */
+}
+
+/*sets searchHeader components to be in a row and spaced out*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*sets search bar margin*/
+#searchForm {
+    margin-left: 1em;
+}
+
+/*sets event or team selection margin*/
+#typeSearch {
+    margin-right: 1em;
+}
+
+/* styles eventname header */
+#eventname {
+    text-align: center;
+}
